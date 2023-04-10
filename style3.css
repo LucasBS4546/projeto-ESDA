@@ -50,3 +50,13 @@ ul a:active {
     background-color:#4098c4;
     color: #122a36;
 }
+footer {
+    padding-block: 25px;
+    background-color: #0082C4;
+    color: #002538;
+    text-align: center;
+}
+main {
+    background-color: #ADD8E6;
+    padding-inline: 150px;
+}

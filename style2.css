@@ -26,7 +26,7 @@ header div h1:first-child {
 nav {
     background-color: #002538;
 }
-ul {
+nav ul {
     list-style: none;
     display: flex;
     align-items: center;
@@ -34,19 +34,94 @@ ul {
     font-size: 20px;
     font-weight: 900;
 }
-li {
+nav li {
     padding-inline: 100px;
     padding-block: 15px;
 }
-ul a:hover {
+nav ul a:hover {
     background-color: #0082C4;
     color: #002538;
 }
-ul a {
+nav ul a {
     color: #0082C4;
     text-decoration: none;
 }
-ul a:active {
+nav ul a:active {
     background-color:#4098c4;
     color: #122a36;
+}
+footer {
+    padding-block: 25px;
+    background-color: #0082C4;
+    color: #002538;
+    text-align: center;
+}
+main {
+    background-color: #ADD8E6;
+    padding-inline: 150px;
+}
+main div#maindiv1 section div:first-child {
+    margin-top: 120px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+main div#maindiv1  p {
+    font-weight: 650;
+    color: rgb(61, 61, 61);
+    text-align: center;
+    font-size: 22px;
+}
+main div#maindiv1 h1 {
+    font-size: 45px;
+}
+main div#maindiv1 {
+    padding-block: 80px;
+}
+div.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div.flex img {
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+    background-color: #0082C4;
+    padding: 5px;
+    border: 3px solid black;
+}
+.container {
+    text-align: center;
+    margin-inline: 25px;
+    margin-block: 15px;
+}
+main ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main a {
+    padding-inline: 15px;
+    margin-inline-end: 15px;
+    padding-block: 15px;
+    font-size: 30px;
+    text-decoration: none;
+    background: linear-gradient(320deg, #4098c4, #0082C4, #4098c4);
+    color: white;
+    font-weight: 600;
+    border-radius: 50px;
+    border: 3px solid black;
+}
+main a:hover {
+    background: linear-gradient(320deg, #0082C4, #4098c4, #0082C4);
+    color: #002538;
+}
+main a:active {
+    background: linear-gradient(320deg, #002538, #0082C4, #002538);
+}
+main div#maindiv2 section {
+    position: relative;
+    top: 80px;
 }
