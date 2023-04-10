@@ -1,0 +1,52 @@
+body {
+    background-color: black;
+    font-family: monospace;
+    color: white;
+    text-align: center;
+}
+body section {
+    margin: 70px;
+}
+a {
+    font-size: 70px;
+    text-decoration: none;
+    font-family: monospace;
+    color: greenyellow;
+}
+a:hover {
+    text-decoration: underline;
+}
+a h4 {
+    margin-top: 45px;
+    padding: 0px;
+}
+h1 {
+    font-size: 120px;
+    color: red;
+}
+h2 {
+    font-size: 50px;
+}
+div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div h3 {
+    padding-right: 30px;
+    font-size: 50px;
+    margin: 0px;
+}
+div input {
+    width: 300px;
+    height: 35px;
+    font-size: 30px;
+    font-weight: 900;
+    color: greenyellow;
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+section div:last-of-type {
+    position: relative;
+    left: 28px;
+}
