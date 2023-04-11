@@ -123,5 +123,15 @@ main a:active {
 }
 main div#maindiv2 section {
     position: relative;
-    top: 80px;
+    top: 120px;
+}
+main div#maindiv3 section {
+    position:relative;
+    top:80px;
+    text-align: center;
+}
+main div#maindiv3 section h2 {
+    width: 1000px;
+    position: relative;
+    left: 270px;
 }
